@@ -2,6 +2,7 @@ Voice-Enabled Chat Page with LLM Integration
 
 This project is a browser-based Chat Page that takes voice inputs from users, which are transcribed and processed through a Large Language Model (LLM) to generate human-like responses. It replies via both text and speech, creating a natural and accessible conversation experience.
 
+
 🚀 Features
 
 •	Voice input using the browser's Speech Recognition API
@@ -12,6 +13,7 @@ This project is a browser-based Chat Page that takes voice inputs from users, wh
 
 •	Keyboard support with Enter to send messages and multiline text input
 
+
 🛠️ Technologies Used
 
 🔊 Web Speech API
@@ -20,8 +22,10 @@ This project is a browser-based Chat Page that takes voice inputs from users, wh
 
 •	SpeechSynthesis: Reads out chatbot responses for a conversational feel.
 
+
 🌐 HTML + CSS + JavaScript
 •	Pure frontend implementation for handling DOM interaction, chat interface, and user input/output handling.
+
 
 🧠 Gemini LLM (Google AI)
 
