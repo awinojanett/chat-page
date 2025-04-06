@@ -27,6 +27,27 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: all 0.3s ease;
+}
+
+body.show-chatbot {
+  overflow: hidden;
+}
+
+.chatbot-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(1px);
+  z-index: 998;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s ease;
+}
+
+body.show-chatbot .chatbot-overlay {
+  opacity: 1;
+  pointer-events: auto;
 }
 
 /* Welcome Text */
@@ -252,7 +273,7 @@ body.show-chatbot .chatbot {
     bottom: 80px;
     max-height: 70vh;
   }
-  
+
   .chatbot-toggler {
     right: 20px;
     bottom: 20px;
@@ -310,4 +331,3 @@ body.show-chatbot .chatbot {
     transform: translateY(-5px);
   }
 }
-
