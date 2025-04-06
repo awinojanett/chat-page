@@ -24,6 +24,7 @@ Technologies Used
 
 
 2. HTML + CSS + JavaScript
+
 •	Pure frontend implementation for handling DOM interaction, chat interface, and user input/output handling.
 
 
